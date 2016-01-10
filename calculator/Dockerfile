@@ -1,4 +1,4 @@
-FROM aspnetbase:beta4
+FROM aspnetbase:beta5
 ADD /src /app
 WORKDIR /app
 RUN ["dnu", "restore"]
